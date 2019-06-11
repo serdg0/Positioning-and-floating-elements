@@ -11,11 +11,15 @@ img{
 .content{
     background-color: blueviolet;
 }
+.links{
+    background-color: green;
+}
 .fixed{
     position: fixed;
 }
-.relative{
+.relative-right{
     position: relative;
+    right: 0;
 }
 .float-right{
     float: right;
@@ -51,4 +55,11 @@ img{
 header{
     background-color: rgb(14, 58, 100);
     margin-top: 38px;
+}
+.cover{
+    position: relative;
+    top: 25px;
+    bottom: 25px;
+    left: 170px;
+    right: 170px;
 }
