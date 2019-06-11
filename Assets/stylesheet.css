@@ -1,11 +1,38 @@
 *{
     border: 1px solid red !important;
 }
+body{
+    background-color: #fff;
+}
+img{
+    height: 532px;
+    width: 945px;
+}
+.content{
+    background-color: blueviolet;
+}
 .fixed{
     position: fixed;
 }
+.relative{
+    position: relative;
+}
 .float-right{
     float: right;
+}
+.float-left{
+    float: left;
+}
+.side-adjust{
+    left: 0;
+    right: 0;
+}
+.height-adjust{
+    left: 0;
+    right: 0;
+}
+.clear-right{
+    clear: right;
 }
 .top{
     top: 0;
@@ -22,9 +49,6 @@
     height: 40px;
 }
 header{
-    background-color: aqua;
-    margin-top: 45px;
-}
-hi{
-    margin: 0px;
+    background-color: rgb(14, 58, 100);
+    margin-top: 38px;
 }
