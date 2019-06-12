@@ -1,6 +1,6 @@
- *{
+ /**{
     border: 1px solid red !important;
-} 
+} */
 .content p{
     width: 600px;
     font-size: 1.25rem;
@@ -29,6 +29,34 @@ body{
     height: 1060px;
     padding-top: 20px;
     padding: 0 38.516;
+}
+.side-bar{
+    width: 315px;
+    height: 1028.250px;
+    background-color: red;
+    padding: 15px 0;
+}
+.side-bar li{
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    color: rgb(18, 18, 18);
+}
+.side-bar ul{
+    padding: 0;
+}
+.more-links{
+    width: 852px;
+    height: 692.5px;
+    background-color: chocolate;
+}
+.editors-pick{
+    width: 852px;
+    height: 366.750px;
+    background-color: darkgoldenrod;
 }
 .fixed{
     position: fixed;
@@ -181,6 +209,7 @@ h3{
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
+    margin-bottom: 65px;
 }
 .text-footer button{
     background-color: rgb(98, 136, 165);
