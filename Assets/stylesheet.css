@@ -1,15 +1,28 @@
-*{
+/* *{
     border: 1px solid red !important;
+} */
+.content p{
+    width: 600px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
 }
 body{
     background-color: #fff;
 }
-img{
-    height: 532px;
-    width: 945px;
+.content{    
+    position: relative;
+    width: 600px;
+    right: 300px;
+    left: 300px;
 }
-.content{
-    background-color: blueviolet;
+.content img{
+    width:600px;
+    height: 400px;
+}
+.content iframe{
+    width: 600px;
 }
 .links{
     background-color: green;
@@ -20,6 +33,10 @@ img{
 .relative-right{
     position: relative;
     right: 0;
+}
+.relative-left{
+    position: relative;
+    left: 0;
 }
 .float-right{
     float: right;
@@ -42,18 +59,23 @@ img{
     top: 0;
     left: 0;
     right: 0;
-    background-color: darkgrey;
-    height: 40px;
 }
-.bottom{
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: darkgray;
-    height: 40px;
+.nav{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    background-color: white;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px;
+    border-bottom-color: #121212;
+}
+.nav-text{
+    padding-top: 10px;
 }
 header{
-    background-color: rgb(14, 58, 100);
     margin-top: 38px;
 }
 .cover{
@@ -62,4 +84,64 @@ header{
     bottom: 25px;
     left: 170px;
     right: 170px;
+    padding-bottom: 40px;
+}
+h1{
+    margin: 0 342px;
+    padding-top: 25px;
+    width: 600px;
+    height: 96px;
+    color: #121212;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 span{
+    display: inline-block;
+}
+h3{
+    font-size: 1.25rem;
+}
+.subtext{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.date img{
+    width: auto;
+    height: auto;
+}
+.author{
+
+}
+.credit{
+    color: #888;
+    font-family: inherit;
+    font-size: 0.8125rem;
+}
+.cover img{
+    height: 531px;
+    width: 945px;
+}
+.inflation img{
+    position: relative;
+    width: 600px;
+    height: 648px;
+    left: 0px;
+    right: 0px;
+}
+.subinfo li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    width: 198px;
+    height: 24px;
+    color: #333;
 }
