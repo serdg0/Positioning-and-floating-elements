@@ -1,6 +1,6 @@
-/* *{
+ *{
     border: 1px solid red !important;
-} */
+} 
 .content p{
     width: 600px;
     font-size: 1.25rem;
@@ -26,6 +26,9 @@ body{
 }
 .links{
     background-color: green;
+    height: 1060px;
+    padding-top: 20px;
+    padding: 0 38.516;
 }
 .fixed{
     position: fixed;
@@ -55,6 +58,9 @@ body{
 .clear-right{
     clear: right;
 }
+.clear-left{
+    clear: left;
+}
 .top{
     top: 0;
     left: 0;
@@ -69,8 +75,6 @@ body{
 .nav a{
     text-decoration: none;
     color: black;
-    border-bottom: 1px;
-    border-bottom-color: #121212;
 }
 .nav-text{
     padding-top: 10px;
@@ -82,10 +86,9 @@ header{
     position: relative;
     top: 25px;
     bottom: 25px;
-    left: 170px;
-    right: 170px;
     padding-bottom: 40px;
 }
+
 h1{
     margin: 0 342px;
     padding-top: 25px;
@@ -119,9 +122,6 @@ h3{
     width: auto;
     height: auto;
 }
-.author{
-
-}
 .credit{
     color: #888;
     font-family: inherit;
@@ -131,6 +131,10 @@ h3{
     height: 531px;
     width: 945px;
 }
+.cover-position{
+    position: relative;
+    left: 157.5px;
+}
 .inflation img{
     position: relative;
     width: 600px;
@@ -138,10 +142,87 @@ h3{
     left: 0px;
     right: 0px;
 }
+.inflation h4{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.inflation hr{
+    width: 60px;
+    float: left;
+    margin-top: 24px;
+}
+.inflation p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    float: left;
+    margin-bottom: 40px;
+}
+.grid{
+    position: relative;
+    width: 600px;
+}
+.text-block{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;    
+}
+
+.text-block p{
+    float: left;
+    font-size: 12.5px;
+    line-height: 17px;
+    font-weight: 300;
+    color: black;
+    width: 150px;
+}
+.text-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.text-footer button{
+    background-color: rgb(98, 136, 165);
+    border-color: rgb(50, 104, 145);
+    border: 1px solid;
+    color: white;
+    width: 330px;
+    height: 35px;
+    padding: 5px 0;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-footer img{
+    width: auto;
+    height: auto;
+}
+.row2{
+    padding-top: 100px;
+}
 .subinfo li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     width: 198px;
     height: 24px;
     color: #333;
+    list-style-type: none;
+}
+.more-in-space{
+    position: relative;
+}
+.thumbox{
+    width: 852px;
+    height: 637.5px;
+    position: absolute;
+    background-color: #888;
+}
+.thumb{
+    width: 272px;
+    height: 271px;
+    float: left;
+}
+.thumbox img{
+   width: 272.625px;
+   height: 181.750;
 }
