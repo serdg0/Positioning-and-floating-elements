@@ -96,6 +96,8 @@ body{
 }
 footer{
     padding-bottom: 0;
+    padding-right: 38px;
+    padding-left: 38px;
 }
 .link-box p{
     font-size: 0.625rem;
@@ -192,6 +194,9 @@ nav{
 .navy-left img{
     width: 34px;
     height: 33px;
+}
+.navy-left{
+    padding-top: 5px;
 }
 .nav a{
     text-decoration: none;
@@ -406,6 +411,7 @@ h3{
 }
 .subscribe{
     border-left: 1px solid rgb(216, 216, 216);
+    width: 200px;
 }
 footer hr{
     color: rgb(216, 216, 216);
