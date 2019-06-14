@@ -1,6 +1,9 @@
  /**{
     border: 1px solid red !important;
 } */
+a{
+    text-decoration: none;
+}
 .content p{
     width: 600px;
     font-size: 1.25rem;
@@ -29,6 +32,11 @@ body{
     padding-top: 20px;
     padding: 0 38.516;
 }
+.links figure{
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
 .links span{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -68,8 +76,14 @@ body{
     padding-top: 20px;
     padding-left: 20px;
 }
+.links-caption{
+    text-align: right;
+    color: rgb(153, 153, 153);
+    font-size: 0.625rem;
+    width: 272px;
+}
 .row3{
-    padding-top:40px;
+    padding-top:50px;
 }
 .link-box img{
     height: 203px;
@@ -77,6 +91,11 @@ body{
 }
 .link-box h3{
     margin: 0;
+    font-size: inherit;
+    color:rgb(18, 18, 18);
+}
+footer{
+    padding-bottom: 0;
 }
 .link-box p{
     font-size: 0.625rem;
@@ -86,15 +105,13 @@ body{
     margin: 0;
 }
 .link-box-date{
-    text-align: left;
-    font-size: 14px
+    padding-top: 5px;
+    font-size: 12.5px;
+    color: rgb(153, 153, 153);
 }
 .editors-pick{
     width: 882px;
     height: 366.750px;
-}
-.fixed{
-    position: fixed;
 }
 .relative-right{
     position: relative;
@@ -129,11 +146,13 @@ body{
     left: 0;
     right: 0;
 }
-.nav{
+nav{
+    position: fixed;
     display:flex;
     justify-content: space-between;
     border-bottom: 1px solid rgb(204, 204, 204);
     background-color: white;
+    z-index: 10;
 }
 .paddintop{
     padding-top: 2px;
@@ -181,7 +200,6 @@ body{
 .nav-text{
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 header{
     margin-top: 38px;
@@ -228,12 +246,18 @@ header{
 .cover{
     position: relative;
     top: 25px;
+    right: 25%;
     bottom: 25px;
     padding-bottom: 40px;
 }
+.cover img{
+    height: 531px;
+    width: 945px;
+}
 
 h1{
-    margin: 0 342px;
+    margin: 0;
+    margin-left:200px;
     padding-top: 25px;
     width: 600px;
     height: 96px;
@@ -251,12 +275,18 @@ h3{
     font-size: 1.25rem;
 }
 .subtext{
+    width: 720px;
     font-size: 0.9375rem;
-    line-height: 1.25rem;
     color: #666;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
 }
+.credit{
+    color: #888;
+    font-family: inherit;
+    font-size: 0.8125rem;
+}
+
 .date{
     display: flex;
     justify-content: space-between;
@@ -265,18 +295,9 @@ h3{
     width: auto;
     height: auto;
 }
-.credit{
-    color: #888;
-    font-family: inherit;
-    font-size: 0.8125rem;
-}
-.cover img{
-    height: 531px;
-    width: 945px;
-}
-.cover-position{
-    position: relative;
-    left: 157.5px;
+
+.youtube{
+    margin-left: 0;
 }
 .inflation img{
     position: relative;
@@ -284,6 +305,9 @@ h3{
     height: 648px;
     left: 0px;
     right: 0px;
+}
+.inflation-frame{
+    margin-left: 0px;
 }
 .inflation h4{
     margin: 0;
@@ -303,7 +327,7 @@ h3{
 }
 .grid{
     position: relative;
-    width: 600px;
+    width: 650px;
 }
 .text-block{
     position: absolute;
@@ -326,7 +350,7 @@ h3{
     margin-top: 24px;
     margin-bottom: 65px;
 }
-.text-footer button{
+.text-footer-button{
     background-color: rgb(98, 136, 165);
     border-color: rgb(50, 104, 145);
     border: 1px solid;
@@ -336,6 +360,21 @@ h3{
     padding: 5px 0;
     border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.i-icon{
+    border: none;
+    background-color: ##eee;
+    border-radius: 100%;
+    margin-left: 16px;
+}
+.fab{
+    padding: 5px;
+}
+.fas{
+    padding: 5px;
+}
+.i-icon-div{
+    padding-top:5px;
 }
 .text-footer img{
     width: auto;
@@ -366,7 +405,10 @@ h3{
     padding-bottom: 5px;
 }
 .subscribe{
-    border-left: 1px solid #888;
+    border-left: 1px solid rgb(216, 216, 216);
+}
+footer hr{
+    color: rgb(216, 216, 216);
 }
 .subscribe hr{
     margin-bottom: 10px;
@@ -410,6 +452,8 @@ h3{
     height: 15px;
     justify-content: space-evenly;
     padding: 0 50px;
+    border-top: 1px;
+    color: #888;
 }
 .footer span{
     font-size: 10px;
