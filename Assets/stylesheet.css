@@ -165,7 +165,7 @@ nav{
 .subscribe-btn{
     width: 120px;
     font-size: 11px;
-    padding: 11px 12px;
+    padding: 11px 11px;
     border: 1px;
     border-color: #121212;
     color: white;
@@ -229,6 +229,7 @@ header{
     float: left;
     width: 75px;
     height: 75px;
+    margin-right: .5em;
 }
 .aside-lower {
     position: absolute;
