@@ -15,4 +15,4 @@ This have been done by:
 * [Sergio Diaz](https://github.com/serdg0) 
 
 ### The website
-[Click](https://serdg0.github.io/Positioning-and-floating-elements/.) to view website
+[Click](https://rawcdn.githack.com/serdg0/Positioning-and-floating-elements/afab9422b4b7f5568fe9e97257678068a2ff235c/index.html) to view website
